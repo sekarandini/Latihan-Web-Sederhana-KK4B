@@ -1,0 +1,140 @@
+body {
+	font: 16px/28px verdana, sans-serif;
+	background-color: #A0522D;
+	color: #F4A460;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header .judul2{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.header2 ol li {
+	display: inline-block;
+	margin-left: -25px;
+	margin-top: 8px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+
+.header2 a {
+	text-decoration: none;
+	color: #F4A460;
+	padding: 3px;
+}
+
+.header2 a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 300px;
+	background-image: url(img/bakery3.jpg);
+	background-size: cover;
+	border-top: 5px solid #F4A460;
+	border-bottom: 5px solid #F4A460;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #fff;
+}
+
+.footer p {
+	color: #F4A460;
+	text-align: center;
+	font-size: 12px;
+}
+
+.about {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+.products {
+	height: 300px;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section h3 {
+	text-align: center;
+}
+
+div .pastries1 {
+	display: inline-grid;
+	margin: auto;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid;
+	border-spacing: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+div .pastries2 {
+	display: inline-grid;
+	justify-content: center;
+	align-items: left;
+	align-items: center;
+	border: 1px solid;
+	border-spacing: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+.contact1 {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.wrapper {
+	margin-left: 20px;
+}
+
+.thanks h1{
+	text-align: center;
+}
+.thanks {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	text-align: center;
+}
